@@ -1,0 +1,9 @@
+word = ['rotator']
+print("Kata palindrome", word)
+def palindrome(x):
+    if x == x[::-1]:
+        print(True)
+    else:
+        print(False)
+hasil = list(filter(palindrome,word))
+print(hasil)
