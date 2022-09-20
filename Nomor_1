@@ -1,0 +1,7 @@
+# Tugas_Pemrograman_Fungsional
+def sum_squares(x):
+    return x * x
+daftar_list = [1, 2, 3]
+
+hasil = sum(list(map(sum_squares,daftar_list)))
+print(hasil)
