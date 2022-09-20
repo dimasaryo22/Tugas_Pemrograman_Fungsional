@@ -1,0 +1,6 @@
+def pangkat(x):
+  return x * x
+
+number = [3]
+equal = list(map(pangkat, number))
+print(equal)
