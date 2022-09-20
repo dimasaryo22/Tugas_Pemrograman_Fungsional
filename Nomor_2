@@ -1,0 +1,7 @@
+from functools import reduce
+def triangular(x):
+    if 0 > x:
+        print("Hanya meneriman bilangan positif")
+    if x > 0:
+        return reduce(lambda x, y: x + y, range(1, x + 1))
+print(triangular(5))
